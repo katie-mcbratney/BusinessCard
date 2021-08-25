@@ -19,7 +19,7 @@ struct InfoView: View {
             .overlay(HStack {
                 Image(systemName: imageName)
                     .foregroundColor(.green)
-                Text(text)
+                Text(text).foregroundColor(.black)
             })
     }
 }
